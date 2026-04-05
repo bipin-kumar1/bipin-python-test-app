@@ -1,4 +1,4 @@
-DevOps Python Test App (Flask + Docker + Github Action CI/CD)
+DevOps Python Test App (Flask + Docker + Github Actions CI/CD pipeline)
 
 Project Overview:
 This is a simple flask based web application containerised using Docker and automated with Github Actions CI/CD pipleline.
