@@ -16,7 +16,7 @@ jobs:
       run: docker build -t bipin1805/bipin-python-test-app .
 
     - name: Login to DockerHub
-      run: echo "${{ secrets.DOCKER_pass }}" | docker login -u "${{ secrets.Docker_Username }}" --password-stdin
+      run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.Docker_USERNAME }}" --password-stdin
 
     - name: Push Image
       run: docker push bipin1805/bipin-python-test-app
